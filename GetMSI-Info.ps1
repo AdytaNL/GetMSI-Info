@@ -1,0 +1,1 @@
+<het correcte PowerShell-script zoals in het canvas>
