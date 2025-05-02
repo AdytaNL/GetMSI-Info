@@ -1,4 +1,4 @@
-# ReadMSIProperties.ps1
+# GetMSI-Info.ps1
 
 This PowerShell script allows you to extract metadata from `.msi` installer files, including:
 
@@ -38,7 +38,7 @@ Feel free to submit pull requests if you find ways to improve it — but please 
 ### Interactive Mode (GUI)
 
 ```powershell
-.\ReadMSIProperties.ps1
+.\GetMSI-Info.ps1
 ```
 
 You will be prompted to select an MSI file using a file dialog.
@@ -46,7 +46,7 @@ You will be prompted to select an MSI file using a file dialog.
 ### Silent Mode (No GUI)
 
 ```powershell
-.\ReadMSIProperties.ps1 -MSIPath "C:\Path\To\YourFile.msi" -Silent
+.\GetMSI-Info.ps1 -MSIPath "C:\Path\To\YourFile.msi" -Silent
 ```
 
 This is ideal for automated scripts, CI/CD, or remote usage.
@@ -68,7 +68,7 @@ This is ideal for automated scripts, CI/CD, or remote usage.
 Logs are written to a `.log` file named after the script itself, for example:
 
 ```
-C:\Install\Scripts\Logs\ReadMSIProperties.log
+C:\Install\Scripts\Logs\GetMSI-Info.log
 ```
 
 Log entries include timestamp, severity, username, and the message.
