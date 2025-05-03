@@ -16,6 +16,7 @@ Optional: If specified, runs without user interaction and requires -MSIPath.
 
 .AUTHOR
 Lambert
+Adyta.nl
 
 .VERSION
 1.0
