@@ -87,6 +87,7 @@ Log entries include timestamp, severity, username, and the message.
 
 Lambert
 
+[`Adyta.nl`](https://adyta.nl)
 ---
 
 ## 📄 License
